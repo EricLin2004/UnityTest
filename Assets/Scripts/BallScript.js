@@ -2,7 +2,7 @@
 
 function Start () {
 	var direction = Random.value * 5;
-	rigidbody2D.AddForceAtPosition(new Vector2(-5, 0), transform.position);
+	rigidbody.AddForceAtPosition(new Vector3(-5, 0, 0), transform.position);
 }
 
 function Update () {

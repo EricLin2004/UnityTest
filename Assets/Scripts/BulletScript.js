@@ -16,7 +16,7 @@ function Update () {
 	}
 }
 
-function OnTriggerEnter2D (col : Collider2D)
+function OnTriggerEnter (col : Collider)
 {
 	print(col.gameObject.name);
 	if(col.gameObject.name == "Balls" || "Balls(Clone)"){
