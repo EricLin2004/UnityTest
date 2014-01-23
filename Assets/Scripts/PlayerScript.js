@@ -6,7 +6,7 @@ var gravity : float = -0.1;
 var bullet : GameObject;
 var gameOver : GameObject;
 var levelText : GameObject;
-var level : int = 1;
+static var level : int = 1;
 
 function Start () {
 }
